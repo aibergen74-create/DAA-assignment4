@@ -1,0 +1,16 @@
+{"task":"lcs","a":"CACDCCD","b":"CDBABCB"}
+{"task":"lcs","a":"AB","b":"BA"}
+{"task":"merge","sizes":[8,5,4,2]}
+{"task":"merge","sizes":[3,1,2]}
+{"task":"tree","n":6,"weights":[8,1,7,6,2,8],"edges":[[0,1],[0,2],[1,3],[1,4],[2,5]]}
+{"task":"tree","n":3,"weights":[-2,0,-3],"edges":[[0,1],[1,2]]}
+{"task":"naive","text":"xaabaabaabyy","pattern":"aabaab"}
+{"task":"naive","text":"abc","pattern":""}
+{"task":"kmp","text":"xaabaabaabyy","pattern":"aabaab"}
+{"task":"kmp","text":"abaabaabaabaabaabaa","pattern":"abaabaa"}
+{"task":"rk","text":"bc_ek_bc","pattern":"bc"}
+{"task":"rk","text":"abdjzzdjababbc","pattern":"ab"}
+{"task":"suffix","text":"cbaabb"}
+{"task":"suffix","text":"abaabaabaabaabab"}
+{"task":"aho","patterns":["a","ba","a","aa","baa"],"texts":["baaabaaaaa"]}
+{"task":"aho","patterns":["bc","c","bc"],"texts":["b","c","bc","bcbc",""]}
